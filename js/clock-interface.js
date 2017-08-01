@@ -1,4 +1,4 @@
-// var Clock = require('./../js/alarm.js').clockModule;
+
 
 function clockDisplay() {
   var date = moment(new Date());
@@ -10,3 +10,5 @@ $(document).ready(function() {
     clockDisplay();
     setInterval(clockDisplay, 1000);
 });
+
+// exports.clockModule = Clock;
