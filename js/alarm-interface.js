@@ -7,8 +7,8 @@ $(document).ready(function() {
       var alarmTime = $('#alarm-input').val();
       var newAlarm = new Alarm(alarmTime);
 
+      // console.log(ring);
       setInterval(function() {
-        newAlarm.alarmCheck();
         if (newAlarm.alarmCheck() === true) {
           $('#buzzer').show();
         }
