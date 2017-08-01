@@ -1,3 +1,7 @@
 #view-alarm {
   display: none;
 }
+
+#buzzer {
+  display: none;
+}
