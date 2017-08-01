@@ -11,6 +11,7 @@ $(document).ready(function() {
       setInterval(function() {
         if (newAlarm.alarmCheck() === true) {
           $('#buzzer').show();
+          // alert("works");
         }
       }, 1000);
 
